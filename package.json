@@ -1,0 +1,20 @@
+{
+  "name": "mattermost-gpt",
+  "version": "1.0.0",
+  "description": "A command on Mattermost that uses OpenAI's GPT-4 Turbo to generate text based on the input.",
+  "main": "index.ts",
+  "scripts": {
+    "watch": "wrangler dev index.ts",
+    "deploy": "wrangler deploy index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hono": "^4.3.0",
+    "openai": "^4.40.2"
+  },
+  "devDependencies": {
+    "wrangler": "^3.53.1"
+  }
+}
