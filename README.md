@@ -1,6 +1,6 @@
 # Mattermost GPT
 
-Tools for Mattermost that uses OpenAI's GPT-4 Turbo to generate text based on the input.
+Tools for Mattermost that uses the OpenAI's [GPT-4o](https://platform.openai.com/docs/models/gpt-4o) model to generate text based on the input.
 
 ## Usage
 
